@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pre-Trial Conference Feedback</title>
+    <link rel="stylesheet" href="feed.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+   
+        <!-- Your custom navigation bar goes here -->
+        <img style="width: 400px;height: 150px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ministry_of_Law_and_Justice.svg/2560px-Ministry_of_Law_and_Justice.svg.png">
+    
+    <section>
+    <nav style="background-color: #213555; ;" class="horizontal-nav navbar ">
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Dashboard</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Your Active cases</a></li>
+                    <li><a href="#">Previous Cases</a></li>
+                    <li><a href="feedback.html">feedback-form</a></li>
+                    <li><a href="#">Sign out</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="case_management.html">Case Management</a></li>
+            <li class="dropdown">
+                <a href="case_hearing.html">Case Hearings</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Timeline of your case</a></li>
+                    <li><a href="#">Notifications and Updates</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <div style="width: 700px;"></div>
+            <!-- submit -->     
+            <a href="login.html" class="login-button" target="_blank">Login</a>  
+        </ul>  
+        
+        
+                 
+    </nav>
+</section>
+    
+    <section class="feedback-form">
+        <h1>Conference Feedback</h1>
+        <p>We value your feedback to help us improve future conferences. Please take a moment to share your thoughts with us.</p>
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email (optional):</label>
+            <input type="email" id="email" name="email">
+
+            <label for="rating">Overall Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+            </select>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+
+        
+                <button type="submit" style="background-color: #213555;" class="submit-btn" >Submit Feedback</button>
+            
+        </form>
+    </section>
+    
+    <footer>
+        <!-- Your custom footer goes here -->
+    </footer>
+</body>
+</html>
+

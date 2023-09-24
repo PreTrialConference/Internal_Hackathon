@@ -61,9 +61,11 @@
     top: 100%;
     left: 0;
     /* background-color: #ADC4CE; Premium color for dropdown background */
-    background-color: #ADC4CE;
+    background-color: #aac5d1;
     padding: 10px 0;
     border-radius: 10px; /* Rounded corners for the dropdown */
+    font-size: 15px;
+    font-weight: bold;
 }
 
 /* Show dropdown menu on hover */
@@ -95,8 +97,9 @@
 
 /* Style for the login button link */
 .login-button {
-    display: inline-block;
-    padding: 10px 20px;
+    align-items: flex-end;
+    align-content:flex-end ;
+    padding: 10px 10px;
     font-weight: 500;
     background-color:#ADC4CE ; /* Dark background color */
     border-radius: 20px;;
@@ -106,8 +109,10 @@
     border-color: white;
     transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
     margin-right: 10px;
-    margin-top: 5px;
+    margin: 5px 5px;
     margin-right: 50px;
+    width: 80px;
+    text-align: center;
     
 
 
@@ -442,6 +447,17 @@ footer {
     padding: 20px;
     text-align: center;
   }
+
+  
+  .bottom-aligned {
+      position: absolute;
+      bottom: 0;
+      width:100vw;
+  }
+
+
+
+
 
 /* .timeline {
     max-width: 800px;

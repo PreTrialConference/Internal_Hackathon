@@ -1,0 +1,28 @@
+h1 {
+    font-size: 36px;
+}
+
+.containercm {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: contents;
+    justify-content: center;
+    width:min-content;
+    height: fit-content;
+}
+
+.btn {
+    display: flex;
+    background-color: #213555;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #294167;
+}
