@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+
+}
+*body{
+  width:100%;
+  min-height: 100vh;
+}
+::-webkit-scrollbar{
+  width: 1rem;
+}
+::-webkit-scrollbar-track{
+  background-color:#d2e6fc;
+
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(249, 191, 136);
+   border-radius: 1rem;
+   border:0.3rem solid transparent;
+   background-clip: content-box;
+
+
+}
+
+.land{
+
+  font-family: 'Bebas Neue', sans-serif; 
+}
+.intro{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.introdiv{
+  background-image:url() ;
+}
+.intro-h{
+  font-family: 'Bebas Neue', sans-serif;
+}
+.test.h{
+  font-family: 'Roboto', sans-serif;
+}
+.test-p{
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+input:focus{
+  outline:none;
+}
